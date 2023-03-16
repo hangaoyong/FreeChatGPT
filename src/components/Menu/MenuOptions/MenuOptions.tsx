@@ -11,12 +11,10 @@ import SettingsMenu from '@components/SettingsMenu';
 const MenuOptions = () => {
   return (
     <>
-      <AboutMenu />
       <ClearConversation />
       <ImportExportChat />
       <Api />
       <SettingsMenu />
-      <Me />
     </>
   );
 };
