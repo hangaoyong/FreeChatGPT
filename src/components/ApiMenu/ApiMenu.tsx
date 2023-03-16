@@ -115,37 +115,6 @@ const ApiMenu = ({
           </div>
         )}
 
-        <div className='min-w-fit text-gray-900 dark:text-gray-300 text-sm mt-4 text-center'>
-          <Trans
-            i18nKey='apiKey.howTo'
-            ns='api'
-            components={[
-              <a
-                href='https://platform.openai.com/account/api-keys'
-                className='link'
-                target='_blank'
-              />,
-            ]}
-          />
-        </div>
-
-        <div className='min-w-fit text-gray-900 dark:text-gray-300 text-sm mt-4'>
-          {t('securityMessage', { ns: 'api' })}
-        </div>
-
-        <div className='mt-4 p-1 border border-gray-500 rounded-md text-sm font-medium text-gray-900 dark:text-gray-300 text-center'>
-          <Trans
-            i18nKey='apiEndpoint.description'
-            ns='api'
-            components={[
-              <a
-                href='https://github.com/ayaka14732/ChatGPTAPIFree'
-                className='link'
-                target='_blank'
-              />,
-            ]}
-          />
-        </div>
       </div>
     </PopupModal>
   );
